@@ -1,0 +1,4 @@
+<launch>
+  <rosparam file="$(find reading_params)/param/file_with_test_param.yaml" command="load"/>
+  <node pkg="reading_params" name="reading_params" type="reading_params" output="screen"/>
+</launch>

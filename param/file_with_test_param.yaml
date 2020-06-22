@@ -1,0 +1,5 @@
+test_namespace:
+  global_frame: odom
+  resolution: 0.05
+
+
